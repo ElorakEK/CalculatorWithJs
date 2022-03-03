@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Calculadora com Js</title>
+</head>
+
+<body>
+  <!-- <h1>Javascript Calculator</h1> -->
+  <div class="calculator">
+    <section class="normal">
+      <input disabled type="text" name="input" class="expression" value="0">
+      <button onclick="inverse()" class="item other"><sup>1</sup>&frasl;<sub>x</sub></button>
+      <button onclick="squareRoot()" class="item other"><sup>2</sup>&#8730;x</button>
+      <button onclick="clearInput()" class="item other">AC</button>
+      <button onclick="backSpace()" class="item operation">&#9003;</button>
+      <button onclick="square()" class="item other">x<sup>2</sup> </button>
+      <button onclick="invertSign()" class="item other">+/-</button>
+      <button onclick="percent()" class="item other">%</button>
+      <button onclick="insertTerm('/')" class="item operation">/</button>
+      <button onclick="insertTerm('7')" class="item">7</button>
+      <button onclick="insertTerm('8')" class="item">8</button>
+      <button onclick="insertTerm('9')" class="item">9</button>
+      <button onclick="insertTerm('*')" class="item operation">x</button>
+      <button onclick="insertTerm('4')" class="item">4</button>
+      <button onclick="insertTerm('5')" class="item">5</button>
+      <button onclick="insertTerm('6')" class="item">6</button>
+      <button onclick="insertTerm('-')" class="item operation">-</button>
+      <button onclick="insertTerm('1')" class="item">1</button>
+      <button onclick="insertTerm('2')" class="item">2</button>
+      <button onclick="insertTerm('3')" class="item">3</button>
+      <button onclick="insertTerm('+')" class="item operation">+</button>
+      <button onclick="insertTerm('0')" class="item zero">0</button>
+      <button onclick="insertTerm('.')" class="item">,</button>
+      <button onclick="calculate()" class="item operation">=</button>
+    </section>
+  </div>
+  <div class="atribuition">
+    <p>Made by: Elton Kamuango</p>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
